@@ -1,0 +1,119 @@
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid rgb(255, 0, 0);
+  margin: 1em 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 700px;   
+  background: #fff;
+  margin: 0px auto 0px; 
+  box-shadow: 1px 1px 2px #DAD7D7;
+  border-radius: 3px;  
+  padding: 40px;
+  margin-top: 50px;
+}
+
+html {
+  height: 100%;  
+}
+
+body {
+  min-height: 100%;  
+  background: #eee;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  line-height: 26px;
+  padding-bottom: 50px;
+}
+
+.separator {
+  height: 10px;
+  display: inline-block;
+  border-left: 2px solid rgb(0, 0, 0);
+  margin: 0px 10px;
+}
+
+.email , .phone , .linkedin {
+  font-weight: bold;
+}
+
+.left ,
+.right {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.left {
+  width: 60%;    
+}
+
+.right {
+  texT-align: right;
+  width: 39%;    
+}
+
+.linkedin-logo {
+  text-align: right;
+}
+
+.gcp-logo {
+  text-align: left;
+}
+
+.position {
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.skills__item {
+  margin-bottom: 10px;  
+}
+
+.skills__item .right
+  input {
+    display: none;
+  }
+  
+  label {
+    display: inline-block;  
+    width: 20px;
+    height: 20px;
+    background: #C3DEF3;
+    border-radius: 20px;
+    margin-right: 3px;
+  }
+  
+  input:checked + label {
+    background: #54AFE4;
+  }
+
+.project_title {
+  letter-spacing: 2px;
+  color: #54AFE4;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.code_logo {
+  vertical-align: bottom;
+  text-align: right;
+}
